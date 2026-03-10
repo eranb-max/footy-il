@@ -13,8 +13,7 @@ exports.handler = async function(event) {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "x-api-key": "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",
-        "anthropic-version": "2023-06-01"
+        "x-api-key": "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",
       },
       body: JSON.stringify({ model: "claude-sonnet-4-20250514", max_tokens: 1024, system, messages })
     });
